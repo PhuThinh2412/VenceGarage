@@ -6,10 +6,10 @@ Stick to following step for installig project on your local:
 - Install php 8.1
 - Install lastest composer
 - Edit .env file connect to your local database
-- Run composer install
-- Run php artisan migrate
-- Run php artisan db::seed
-- Run php artisan serve
+- Run `composer install`
+- Run `php artisan migrate`
+- Run `php artisan db::seed`
+- Run `php artisan serve`
 
 ## About Laravel
 

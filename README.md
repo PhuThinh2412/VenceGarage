@@ -13,14 +13,14 @@ Stick to following step for installig project on your local:
 
 # Database defination
 | vehicles_type |
-| :---:   |
+| :----   |
 | id |
 | type_name |
 | created_at |
 | updated_at |
 
 | vehicles |
-| :---:   |
+| :----   |
 | id |
 | license_plate |
 | type |
@@ -29,7 +29,7 @@ Stick to following step for installig project on your local:
 | updated_at |
 
 | parking_levels |
-| :---:   |
+| :----   |
 | id |
 | name |
 | capacity |
@@ -37,7 +37,7 @@ Stick to following step for installig project on your local:
 | updated_at |
 
 | parking_spaces |
-| :---:   |
+| :----   |
 | id |
 | level_id |
 | name |
@@ -46,7 +46,7 @@ Stick to following step for installig project on your local:
 | updated_at |
 
 | parking_space_vehicles|
-| :---:   |
+| :----   |
 | id |
 | vehicle_id |
 | parking_space_id |  

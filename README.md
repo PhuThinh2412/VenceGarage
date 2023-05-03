@@ -11,6 +11,47 @@ Stick to following step for installig project on your local:
 - Run `php artisan db::seed`
 - Run `php artisan serve`
 
+# Database defination
+| vehicles_type |
+| :---:   |
+| id |
+| type_name |
+| created_at |
+| updated_at |
+
+| vehicles |
+| :---:   |
+| id |
+| license_plate |
+| type |
+| status |
+| created_at |
+| updated_at |
+
+| parking_levels |
+| :---:   |
+| id |
+| name |
+| capacity |
+| created_at |
+| updated_at |
+
+| parking_spaces |
+| :---:   |
+| id |
+| level_id |
+| name |
+| status |
+| created_at |
+| updated_at |
+
+| parking_space_vehicles|
+| :---:   |
+| id |
+| vehicle_id |
+| parking_space_id |  
+| created_at |
+| updated_at |
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
